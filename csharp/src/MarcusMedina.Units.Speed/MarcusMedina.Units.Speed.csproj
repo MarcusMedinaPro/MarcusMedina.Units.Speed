@@ -6,12 +6,13 @@
     <Nullable>enable</Nullable>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
     <PackageId>MarcusMedina.Units.Speed</PackageId>
-    <Version>0.1.0</Version>
+    <Version>0.1.1</Version>
     <Title>MarcusMedina.Units.Speed</Title>
     <Description>Fluent speed unit conversion — metric, US, nautical and scientific (m/s, km/h, mph, knots, Mach, c).</Description>
     <Authors>Marcus Medina</Authors>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageProjectUrl>https://github.com/MarcusMedinaPro/MarcusMedina.Units.Speed/wiki</PackageProjectUrl>
     <RepositoryUrl>https://github.com/MarcusMedinaPro/MarcusMedina.Units.Speed</RepositoryUrl>
     <PackageTags>speed;velocity;units;conversion;fluent;metric;mph;knots;mach</PackageTags>
     <NoWarn>CS1573;CS1591</NoWarn>
