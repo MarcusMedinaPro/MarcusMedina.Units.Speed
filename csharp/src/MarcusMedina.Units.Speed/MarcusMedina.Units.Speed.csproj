@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
     <PackageId>MarcusMedina.Units.Speed</PackageId>
-    <Version>0.1.1</Version>
+    <Version>0.1.2</Version>
     <Title>MarcusMedina.Units.Speed</Title>
     <Description>Fluent speed unit conversion — metric, US, nautical and scientific (m/s, km/h, mph, knots, Mach, c).</Description>
     <Authors>Marcus Medina</Authors>
