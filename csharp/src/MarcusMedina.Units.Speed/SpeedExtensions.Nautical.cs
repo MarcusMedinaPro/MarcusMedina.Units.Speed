@@ -8,9 +8,19 @@ namespace MarcusMedina.Units.Speed.Nautical;
 /// </summary>
 public static class NauticalSpeedExtensions
 {
-    /// <summary>1 knop = 1 852/3 600 m/s ≈ 0.514444 m/s</summary>
-    public static Speed Knots(this int v) => new(v * 1_852.0 / 3_600.0);
-    public static Speed Knots(this double v) => new(v * 1_852.0 / 3_600.0);
+    extension(int v)
+    {
+        /// <summary>1 knop = 1 852/3 600 m/s ≈ 0.514444 m/s</summary>
+        public Speed Knots() => new(v * 1_852.0 / 3_600.0);
+    }
 
-    public static double ToKnots(this Speed s) => s.MetersPerSecond / (1_852.0 / 3_600.0);
+    extension(double v)
+    {
+        public Speed Knots() => new(v * 1_852.0 / 3_600.0);
+    }
+
+    extension(Speed s)
+    {
+        public double ToKnots() => s.MetersPerSecond / (1_852.0 / 3_600.0);
+    }
 }
